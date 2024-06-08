@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task10</title>
+</head>
+<body>
+    <h2>js task10</h2>
+    <!-- write a program a without length used for of, for in ,for loop -->
+    var a=prompt("enter the string:")
+    c=0
+    for(i=0; ;i++){
+        if(a[i]==undefined)
+            break;
+            c++
+        
+    }
+    console.log(c)
+    var b=prompt("enter the string::")
+    c=0
+    for(i of b){
+        if(b==undefined)
+        break;
+        
+        c++
+    }
+    console.log(c)
+    var c=prompt("enter the string:")
+    bb=0
+    for(i in c){
+        if(i==undefined)
+        break;
+        
+        bb++
+        
+    
+    }
+    console.log(bb)
+    
+</body>
+</html>
